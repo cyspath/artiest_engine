@@ -1,5 +1,4 @@
 const express = require('express');
-const morgan = require('morgan'); // logging framework
 const http = require('http');
 const routes = require('./routes');
 
