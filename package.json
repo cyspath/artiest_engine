@@ -12,6 +12,7 @@
   "author": "Michael Li",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.1",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "nodemon": "^1.11.0",
