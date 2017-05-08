@@ -1,0 +1,125 @@
+body.app-body, html {
+  height: 100%;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif, Arial;
+  font-size: 14px;
+}
+
+.page-container {
+  background-color: #f97055;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+
+  overflow: auto;
+}
+
+.title-text {
+  color: #f7f9ee;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+.search-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #454234;
+}
+
+.search {
+  padding: 20px;
+  width: 100%;
+  /*height: 100px;*/
+  background: #fff;
+  /*-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);*/
+  margin-bottom: 0px;
+}
+
+.input-field {
+  font-weight: 100;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #c0b2b2;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #454234;
+}
+
+.status {
+  color: #b5b0b0;
+  margin-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input-button {
+  border: none;
+  padding: 7px 18px;
+  background-color: #f97055;
+  font-size: 15px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.input-button:hover {
+  opacity: 0.9;
+}
+
+.results {
+  max-height: 423px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #f2f2e8;
+  text-align: left;
+}
+
+.app-description-1 {
+  color: black;
+  max-width: 600px;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px auto 25px;
+}
+
+.app-description-2 {
+  color: black;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+
+/* artist item */
+.artist-container {
+  padding: 20px;
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.artist-name {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.artist-popularity {
+  margin-bottom: 10px;
+}
