@@ -8,7 +8,7 @@ Search for an artist below and see a list of possible matches. Clicking on a art
 
 Step 1: Download/clone.
 ```
-git clone https://github.com/cyspath/artiest_engine.git
+git clone https://github.com/cyspath/artist_engine.git
 ```
 Step 2: Install dependencies.
 ```
